@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:test_app/screens/Fish_clicked.dart';
 import 'package:test_app/screens/aquarium.dart';
 import 'package:test_app/screens/map.dart';
 import 'package:test_app/screens/home.dart';
@@ -17,6 +18,8 @@ class RouteGenerator {
         return MaterialPageRoute(builder: (context) => Aquarium());
       case "/map":
         return MaterialPageRoute(builder: (context) => map());
+      case "/fishclicked":
+        return MaterialPageRoute(builder: (context) => FishClicked());
       default:
         return _errorRoute();
     }
