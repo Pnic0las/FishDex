@@ -17,7 +17,7 @@ Widget build(BuildContext context) {
 
         Text("Description",
         style: TextStyle (fontWeight: FontWeight.bold),),
-        Text("Proinde concepta rabie saeviore, quam desperatio incendebat et fames, amplificatis viribus ardore incohibili in excidium urbium matris Seleuciae efferebantur, quam comes tuebatur Castricius tresque legiones bellicis sudoribus induratae.")
+        Text("Goldfish are lively and to slow species. However, they will be calm and peaceful with any roommate over half their size. Beware of certain plants, and prefer aquatic plants with solid leaves like Anubias with a classic plant Anubias nana for example.")
       ],
     ),
     actions: <Widget>[

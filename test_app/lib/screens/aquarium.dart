@@ -55,9 +55,10 @@ void ReadJson() async{
           // Create a grid with 2 columns. If you change the scrollDirection to
           // horizontal, this produces 2 rows.
           crossAxisCount: 2,
+          childAspectRatio: 0.80,
           // Generate 100 widgets that display their index in the List.
           children: fish.map((Fish destination) {
-            return FishInfo(fishname: destination.name, urlfish: destination.url,
+            return FishInfo(fishname: destination.name, urlfish: destination.url,lat :destination.lat,long:destination.long
              
               );
             }).toList()),  

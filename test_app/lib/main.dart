@@ -10,13 +10,15 @@ import 'dart:convert';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  Hive.registerAdapter(FishAdapter());
   await Hive.initFlutter();
+  await Hive.openBox<Fish>("fish_infos");
   await Hive.openBox<String>("user_avatar");
   runApp(FishDex());
 }
 
 Future<String> getJson() {
-  return rootBundle.loadString('lib/Fishlist.json');
+  return rootBundle.loadString('lib/Fishlist2.json');
 }
 
 Future<List<Fish>> getItems() async {

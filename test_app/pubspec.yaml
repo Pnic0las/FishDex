@@ -31,13 +31,16 @@ dependencies:
   cupertino_icons: ^1.0.0
   english_words: ^3.1.5
   image_picker: ^0.6.7+22
-  hive: ^1.4.4+1
-  hive_flutter: ^0.3.1
-
+  hive: ^2.0.0
+  hive_flutter: ^1.0.0
+  map: ^0.3.0
 
 dev_dependencies:
+  hive_generator: ^1.0.0
+  build_runner: ^1.10.9
   flutter_test:
     sdk: flutter
+  
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -52,7 +55,8 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-      - lib/Fishlist.json
+      - lib/Fishlist2.json
+      - images/Logo.png
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
